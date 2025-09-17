@@ -49,5 +49,5 @@ The extracted data is saved in **CSV, JSON, and XLSX** formats.
 - The Output_Files folder is created automatically if it does not exist.
 - Address components are merged with property details to form a complete dataset.
 - **This code is only works for the sample dataset, may not work for others**
+- **The unit test scirpt is on `/tests` directory. Can be done by using `pytest -v` on the terminal**
 
-- **The unit test scirpt is on `/tests` directory**
