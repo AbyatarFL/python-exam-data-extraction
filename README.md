@@ -21,6 +21,15 @@ It parses fields such as:
 
 The extracted data is saved in **CSV, JSON, and XLSX** formats.
 
+## Sample data
+ - Example data for this project
+   ```bash
+    PROPERTY DETAILS - ID: PRO-2024-0123 
+    Location: 742 Evergreen Terrace, Springfield, ST 12345, United States 
+    Contact: Jane Doe (Primary) | john.doe@email.com 
+    Additional Details: Built 1983 | Sq Ft: 2,400 | Lot: 0.25 acres 
+    Last Updated: March 15, 2024 by Agent#A552 
+
 ## Requirements
 - Python 3.x
 - Libraries: `os`, `csv`, `json`, `openpyxl`, `datetime`, `re`
@@ -40,4 +49,5 @@ The extracted data is saved in **CSV, JSON, and XLSX** formats.
 - The Output_Files folder is created automatically if it does not exist.
 - Address components are merged with property details to form a complete dataset.
 - **This code is only works for the sample dataset, may not work for others**
+
 - **The unit test scirpt is on `/tests` directory**
